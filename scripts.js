@@ -1,7 +1,5 @@
 const currentOperation = document.querySelector('#current-operation');
 const previousOperation = document.querySelector('#previous-operation');
-const buttons = document.querySelectorAll('.btns button');
-const operations = document.querySelectorAll('.op');
 
 let num1;
 let num2;
