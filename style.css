@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,700&family=Josefin+Sans&family=Karla&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Rajdhani:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: #037ca5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+}
+
+.title{
+    margin-left: 10px;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    letter-spacing: 6px;
+    position: relative;
+    bottom: 25px;
+}
+
+.calculator{
+    width: 350px;
+    padding: 1.1em;
+    background-color:#01a6dd;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 7px 5px 1.5px #03688a, inset 7px 4px #1cafe0;
+}
+
+.operations{
+    background-color: #0193c4;
+    border-radius: 10px;
+    box-shadow: 3px 3px #03688a;
+    text-align: right;
+    margin-bottom: 1em;
+    padding: 0.3em ;
+}
+
+#previous-operation, #current-operation{
+    min-height: 1.7em;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+}
+#previous-operation{
+    margin: 16px 17px 0 0;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #3fcaf8;
+}
+
+#current-operation{
+    margin-right: 10px;
+    font-size: 2.8em;
+    font-weight: 600;
+    color: white;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em 10px;
+    
+}
+
+.btns button {
+    background-color:#3ab9e4;
+    color: white;
+    font-weight: 500;
+    border: hidden;
+    border-radius: 6px;
+    box-shadow: 2px 2px 0 1.5px #0193c4, inset 2.5px 2.5px #44c0e9;
+    font-size: 2em;
+    height: 1.4em;
+    cursor: pointer;
+}
+
+.btns .num{
+    background-color:#01a6dd;
+    box-shadow: 2px 2px 0 1.5px #0193c4, inset 2.5px 2.5px #1cafe0;
+}
+
+button:hover, .num:hover{
+    box-shadow: none;    
+    background-color: #0193c4;
+    box-shadow: 2px 2px 0 1.5px #0184af, inset 2.5px 2.5px #069ed1;
+}
+button:active, .num:active{
+    background-color: #0193c4;
+    box-shadow: none;
+    box-shadow: inset 4px 3px #03688a, 3.5px 2.5px #1cafe0;
+}
+
+.btns .igual{
+    grid-column: span 2;
+}
+
+.btns .clear{
+    grid-column: span 2;
+}
+
