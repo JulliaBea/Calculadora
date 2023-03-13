@@ -4,4 +4,4 @@ Colocando meus conhecimentos em prática com a minha primeira calculadora!
 
 Clique para acessar: [Calculadora](https://julliabea.github.io/Calculadora/)
 
-![20230313_055013](https://user-images.githubusercontent.com/109460961/224652920-f08d3707-c9ca-4008-899a-564e8ad9ee3e.gif)
+![](https://user-images.githubusercontent.com/109460961/224652920-f08d3707-c9ca-4008-899a-564e8ad9ee3e.gif#vitrinedev)
